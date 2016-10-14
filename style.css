@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body {
+	height: 100%;
+s}
+
+nav {
+	height: 75px;
+	background-color: #52527a;
+}
+
+nav a {
+	text-decoration: none;
+	color: #f0f0f5;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 575%;
+	color: #4a4444;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+	/*margin: 45%;*/
+	padding-top: 10%;
+}
+
+h2 {
+	text-align: center;
+	font-size: 275%;
+	color: #e5e5e5;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+}
+
+.block {
+	background-size: contain;
+	/*background-repeat: no-repeat;*/
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+.block-one {
+	background-color: #d1d1e0;
+}
+
+.block-two {
+	background-image: url("images/disc_break_scrumpet.jpg");
+}
+.parallax {
+	background: url("images/bike_brakes.jpg") repeat fixed 100%;
+
+}
+
+.parallax-inner {
+	padding-top: 18%;
+	padding-bottom: 18%;
+}
